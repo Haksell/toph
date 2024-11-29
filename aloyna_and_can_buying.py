@@ -10,7 +10,7 @@ lmir = lambda: list(map(int, read().split()))
 
 
 def main():
-    n, k = mir()
+    _, k = mir()
     cnt = [0] * (k + 1)
     for x in mir():
         cnt[x] += 1
