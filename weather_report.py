@@ -12,11 +12,11 @@ lmir = lambda: list(map(int, read().split()))
 def main():
     n = ir()
     print(
-        "Good weather."
-        if n <= 30
-        else "Bad weather."
+        "Bad weather."
         if n >= 70
-        else "Confusing weather."
+        else "Good weather."
+        if n <= 30
+        else '"Confusing weather."'
     )
 
 
